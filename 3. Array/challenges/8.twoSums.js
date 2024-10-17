@@ -5,7 +5,9 @@ function twoSum(nums, target) {
     for (let i = 0; i < nums.length; i++) {
       // For each number, check the rest of the list
       for (let j = i + 1; j < nums.length; j++) {
-        // If the current number and the one we're checking add up to the target, return their indexes
+        // If the current number and the one we're checking add up to the 
+        //  target, return their indexes
+        
         if (nums[i] + nums[j] === target) {
           return [i, j];
         }
